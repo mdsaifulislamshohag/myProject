@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloodBank.bloodbankHome">
+
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/bloodGroup_tab_layout"
+                android:layout_width="match_parent"
+                android:background="@color/overlay_dark_80"
+                android:layout_height="wrap_content"
+                app:tabGravity="fill"
+                app:tabMode="scrollable"
+                app:tabTextColor="@color/mdtp_white"
+
+                app:tabSelectedTextColor="@color/red_700"
+                app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"/>
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/bloodgroup_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="wrap_content"
+            android:layout_height="333dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="60dp"
+            app:fab_shadowRadius="4dp"
+
+            app:fab_shadowXOffset="1dp"
+            app:fab_shadowYOffset="3dp"
+            app:menu_colorNormal="@color/overlay_dark_80"
+            app:menu_colorPressed="@color/overlay_dark_60"
+            app:menu_colorRipple="@color/grey_80">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/floatingblood_emergency_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/ic_call_fab"
+                app:fab_colorNormal="@color/overlay_dark_80"
+                app:fab_colorPressed="@color/grey_60"
+                app:fab_label="Help Line"
+                app:fab_shadowRadius="4dp"
+                app:fab_shadowXOffset="1dp"
+                app:fab_shadowYOffset="3dp"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/floatingblood_becom_doner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/ic_blood_fab"
+                app:fab_colorNormal="@color/overlay_dark_80"
+                app:fab_colorPressed="@color/grey_60"
+                app:fab_label="Become a Donner to protect dengue virus"
+                app:fab_shadowRadius="4dp"
+                app:fab_shadowXOffset="1dp"
+                app:fab_shadowYOffset="3dp"
+
+                app:fab_size="mini" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>

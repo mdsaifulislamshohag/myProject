@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/blue_grey_800"
+    tools:context=".userProfile.DoctorSignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/overlay_dark_30"
+            android:orientation="vertical"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:tint="@color/green_300"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_doc"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="REGISTER  FORM"
+                android:textColor="@color/indigo_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_middle" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical"
+                    android:text="Name"
+                    android:textColor="@color/blue_grey_200"
+                    android:textSize="@dimen/text_view_size" />
+
+                <EditText
+                    android:id="@+id/doctor_sign_up_name_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:hint="ex: DR. Akram Ali"
+                    android:theme="@style/EditText.Grey"
+                    android:textColor="@color/overlay_dark_80"
+                    android:textColorHint="@color/blue_grey_600"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/blue_grey_200"
+                    android:gravity="center_vertical"
+                    android:text="Title"
+                    android:textSize="@dimen/text_view_size" />
+
+                <EditText
+                    android:id="@+id/doctor_sign_up_title_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:hint="ex:proffessor"
+                    android:theme="@style/EditText.Grey"
+                    android:textColor="@color/overlay_dark_80"
+                    android:textColorHint="@color/blue_grey_600"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical"
+                    android:text="Degree"
+                    android:textColor="@color/blue_grey_200"
+                    android:textSize="@dimen/text_view_size" />
+
+                <EditText
+                    android:id="@+id/doctor_sign_up_degree_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:hint="ex: FCPS"
+                    android:theme="@style/EditText.Grey"
+                    android:textColor="@color/overlay_dark_80"
+                    android:textColorHint="@color/blue_grey_600"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical"
+                    android:text="Speciality"
+                    android:textColor="@color/blue_grey_200"
+                    android:textSize="@dimen/text_view_size" />
+
+                <Spinner
+                    android:id="@+id/doctor_sign_up_speciality_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical"
+                    android:text="Gender"
+                    android:textColor="@color/blue_grey_200"
+                    android:textSize="@dimen/text_view_size" />
+
+                <Spinner
+                    android:id="@+id/doctor_sign_up_gender_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/blue_grey_200"
+                    android:gravity="center_vertical"
+                    android:text="Mobile"
+                    android:textSize="@dimen/text_view_size" />
+
+                <EditText
+                    android:id="@+id/doctor_sign_up_mobile_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:hint="+8801XXXXXXXXX"
+                    android:theme="@style/EditText.Grey"
+                    android:textColor="@color/overlay_dark_80"
+                    android:textColorHint="@color/blue_grey_600"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical"
+                    android:text="Email"
+                    android:textColor="@color/blue_grey_200"
+                    android:textSize="@dimen/text_view_size" />
+
+                <EditText
+                    android:id="@+id/doctor_sign_up_email_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:hint="example@gmail.com"
+                    android:theme="@style/EditText.Grey"
+                    android:textColor="@color/overlay_dark_80"
+                    android:textColorHint="@color/blue_grey_600"
+                    android:inputType="textEmailAddress" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical"
+                    android:text="Password"
+                    android:textColor="@color/blue_grey_200"
+                    android:textSize="@dimen/text_view_size" />
+
+                <EditText
+                    android:id="@+id/doctor_sign_up_password_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:hint="********"
+                    android:theme="@style/EditText.Grey"
+                    android:textColor="@color/overlay_dark_80"
+                    android:textColorHint="@color/blue_grey_600"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical"
+                    android:text="BMDC"
+                    android:textColor="@color/blue_grey_200"
+                    android:textSize="@dimen/text_view_size" />
+
+                <EditText
+                    android:id="@+id/doctor_sign_up_bmdc_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:hint="ex: 123921392"
+                    android:theme="@style/EditText.Grey"
+                    android:textColor="@color/overlay_dark_80"
+                    android:textColorHint="@color/blue_grey_600"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    <Button
+        android:id="@+id/doctor_sign_up_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_rounded_green_300"
+        android:text="Create Account"
+        android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</ScrollView>

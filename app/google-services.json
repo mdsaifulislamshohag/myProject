@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1022985733111",
+    "firebase_url": "https://denguesolution-ee43f.firebaseio.com",
+    "project_id": "denguesolution-ee43f",
+    "storage_bucket": "denguesolution-ee43f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022985733111:android:0f8c94e72a8e6e79ec64f2",
+        "android_client_info": {
+          "package_name": "com.me.noban.DengueSolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022985733111-rqqliouuosp68611kiqq3ss26o2n449u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKIoODN2f2zTxMJYvnu4j3bjSFr5b3rkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022985733111-rqqliouuosp68611kiqq3ss26o2n449u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

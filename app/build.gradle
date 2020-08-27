@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.me.noban.DengueSolution"
+        minSdkVersion 22
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    configurations {
+        all*.exclude group: 'com.android.support', module: 'support-v13'
+    }
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+
+    implementation 'com.github.smarteist:autoimageslider:1.1.1'
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.firebaseui:firebase-ui-database:1.2.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    implementation 'com.google.android.gms:play-services-maps:11.8.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //third party
+
+    implementation 'com.balysv:material-ripple:1.0.2'                  // ripple effect
+
+    implementation 'com.wdullaer:materialdatetimepicker:3.2.0'         // date & time picker
+    implementation 'com.mikhaellopez:circularimageview:3.2.0'          // circle image view
+
+    implementation 'com.hootsuite.android:nachos:1.1.1'                // material chips
+    implementation 'com.google.android:flexbox:0.3.2'                  // google flexible box
+    implementation 'com.crystal:crystalrangeseekbar:1.1.3'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.gauravbhola.ripplepulsebackground:library:1.0.0'
+
+    implementation 'pl.bclogic:pulsator4droid:1.0.3'
+   // implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.nightonke:boommenu:2.1.1'
+    
+
+
+}
+
+apply plugin: 'com.google.gms.google-services'

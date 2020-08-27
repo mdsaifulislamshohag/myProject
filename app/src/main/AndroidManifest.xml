@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.me.noban.DengueSolution">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.me.noban.DengueSolution.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.me.noban.DengueSolution.Chat.Chating" />
+        <activity android:name="com.me.noban.DengueSolution.BloodBank.bloodbankHome" />
+        <activity android:name=".chat.Chating" />
+        <activity android:name="com.me.noban.DengueSolution.maps.MapsActivity" />
+        <activity android:name="com.me.noban.DengueSolution.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.me.noban.DengueSolution.pulseRate.pulsrateMain" />
+        <activity android:name="com.me.noban.DengueSolution.pulseRate.pulsMeasure" />
+        <activity android:name=".userProfile.userProfile" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".navigation.navigationActivity" />
+        <activity android:name="com.me.noban.DengueSolution.PatientSignUpActivity" />
+        <activity android:name="com.me.noban.DengueSolution.userProfile.DoctorSignUpActivity" />
+        <activity android:name="com.me.noban.DengueSolution.DoctorHomeActivity" />
+        <activity
+            android:name="com.me.noban.DengueSolution.MainUIActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.me.noban.DengueSolution.UserProfileActivity" />
+        <activity android:name=".checkApointmentDoctor.Activity.CheckApointment" />
+        <activity android:name=".checkApointmentDoctor.Activity.check_apointment" />
+        <activity android:name="com.me.noban.DengueSolution.checkApointmentDoctor.check_apointment"></activity>
+        <activity android:name=".Prevention" />
+        <activity android:name=".SignAndSymptoms" />
+        <activity android:name=".DengueFeverDisease" />
+        <activity android:name=".Cause" />
+    </application>
+
+</manifest>

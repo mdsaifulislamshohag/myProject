@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/overlay_dark_80"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingTop="8dp"
+            android:tint="@color/indigo_50"
+            android:src="@drawable/ic_doc"/>
+        <TextView
+            android:id="@+id/hhhh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/indigo_50"
+            android:text="Appointment of dengue patient :" />
+    </LinearLayout>
+
+
+
+
+
+    <EditText
+    android:id="@+id/ap_alart_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        android:textColorHint="@color/blue_grey_200"
+        android:theme="@style/EditText.Grey"
+    android:inputType="text" />
+    <EditText
+        android:id="@+id/ap_alart_cell_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/blue_grey_200"
+        android:theme="@style/EditText.Grey"
+        android:hint="01XXXXXXXXX"
+        android:inputType="number" />
+
+</LinearLayout>

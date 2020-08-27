@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">DengueSolution</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home_des">Dengue infection is caused by a virus. It occurs commonly as dengue fever. Occasionally the patient suffering from dengue may develop bleeding from nose, gums or skin. Sometimes, the patient may suffer from coffee ground vomiting or black stools. This indicates bleeding in gastro intestinal tracts and it is serious. The patient with dengue who has bleeding has Dengue Haemorrhagic Fever (DHF). Sometimes, the patient suffering from dengue may develop shock, then it is called Dengue Shock Syndrome (DSS).</string>
+<string name="disease">Dengue is a mosquito-borne viral disease that has rapidly spread in all regions of WHO in recent years. Dengue virus is transmitted by female mosquitoes mainly of the species Aedes aegypti and, to a lesser extent, Ae. albopictus. These mosquitoes are also vectors of chikungunya, yellow fever and Zika viruses. Dengue is widespread throughout the tropics, with local variations in risk influenced by rainfall, temperature, relative humidity and unplanned rapid urbanization.
+
+Dengue causes a wide spectrum of disease. This can range from subclinical disease (people may not know they are even infected) to severe flu-like symptoms in those infected. Although less common, some people develop severe dengue, which can be any number of complications associated with severe bleeding, organ impairment and/or plasma leakage. Severe dengue has a higher risk of death when not managed appropriately. Severe dengue was first recognized in the 1950s during dengue epidemics in the Philippines and Thailand. Today, severe dengue affects most Asian and Latin American countries and has become a leading cause of hospitalization and death among children and adults in these regions.</string>
+
+   <string name="cause"> Dengue fever is caused by any one of four types of dengue viruses spread by mosquitoes that thrive in and near human lodgings. When a mosquito bites a person infected with a dengue virus, the virus enters the mosquito. When the infected mosquito then bites another person, the virus enters that persons bloodstream.After you have recovered from dengue fever, you have immunity to the type of virus that infected you but not to the other three dengue fever virus types. The risk of developing severe dengue fever, also known as dengue hemorrhagic fever, actually increases if you  are infected a second, third or fourth time.</string>
+    <string name="symptoms">Many people, especially children and teens, may experience no signs or symptoms during a mild case of dengue fever. When symptoms do occur, they usually begin four to seven days after you are bitten by an infected mosquitoDengue fever causes a high fever — 104 F degrees — and at least two of the following symptoms:Headache
+Muscle, bone and joint pain
+Nausea
+Vomiting
+Pain behind the eyes
+Swollen glands
+Rash Most people recover within a week or so. In some cases, symptoms worsen and can become life-threatening. Blood vessels often become damaged and leaky. And the number of clot-forming cells (platelets) in your bloodstream drops. This can cause a severe form of dengue fever, called dengue hemorrhagic fever, severe dengue or dengue shock syndrome.Signs and symptoms of dengue hemorrhagic fever or severe dengue — a life-threatening emergency — include:
+
+Severe abdominal pain
+Persistent vomiting
+Bleeding from your gums or nose
+Blood in your urine, stools or vomit
+Bleeding under the skin, which might look like bruising
+Difficult or rapid breathing
+Cold or clammy skin (shock)
+Fatigue
+Irritability or restlessness</string>
+    <string name="prevention">One dengue fever vaccine, Dengvaxia, is currently approved for use in those ages 9 to 45 who live in areas with a high incidence of dengue fever. The vaccine is given in three doses over the course of 12 months. Dengvaxia prevents dengue infections slightly more than half the time.The vaccine is approved only for older children because younger vaccinated children appear to be at increased risk of severe dengue fever and hospitalization two years after receiving the vaccine.
+
+The World Health Organization stresses that the vaccine is not an effective tool, on its own, to reduce dengue fever in areas where the illness is common. Controlling the mosquito population and human exposure is still the most critical part of prevention efforts.If you are living or traveling in tropical areas where dengue fever is common, these tips may help reduce your risk of mosquito bites:
+
+Stay in air-conditioned or well-screened housing. The mosquitoes that carry the dengue viruses are most active from dawn to dusk, but they can also bite at night.
+Wear protective clothing. When you go into mosquito-infested areas, wear a long-sleeved shirt, long pants, socks and shoes.
+Use mosquito repellent. Permethrin can be applied to your clothing, shoes, camping gear and bed netting. You can also buy clothing made with permethrin already in it. For your skin, use a repellent containing at least a 10 percent concentration of DEET.
+Reduce mosquito habitat. The mosquitoes that carry the dengue virus typically live in and around houses, breeding in standing water that can collect in such things as used automobile tires. You can help lower mosquito populations by eliminating habitats where they lay their eggs. At least once a week, empty and clean containers that hold standing water, such as planting containers, animal dishes and flower vases. Keep standing water containers covered between cleanings.</string>
+    <string name="title_doctor_sign_in_text">Sign in As Doctor</string>
+    <string name="title_patient_sign_in_text">Sign in As Patient</string>
+
+
+    <string-array name="district">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Rajshahi</item>
+        <item>Sylhet</item>
+        <item>Tangail</item>
+    </string-array>
+    <string name="title_activity_maps2">Map</string>
+
+    <string-array name="name_of_sector">
+        <item>Dengue control unit DMCH</item>
+        <item>Dengue control unit ShSMC</item>
+        <item>Dengue control unit BIRDEM</item>
+        <item>Dengue control unit SMC</item>
+        <item>Dengue control unit Apollo Hospital</item>
+        <item>Dengue control unit PG Hospital</item>
+        <item>Dengue control unit BSMMU</item>
+        <item>Dengue Unit Munshiganj General Hospital</item>
+    </string-array>
+
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="name_of_blood_group">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+</resources>
